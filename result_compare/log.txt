@@ -1,0 +1,30 @@
+26-03-11 20:05:33.424 - INFO: data_path: /home/node5/AD/datasets/eyecandies-multiview_672to224
+26-03-11 20:05:33.425 - INFO: save_path: ./result_compare/
+26-03-11 20:05:33.425 - INFO: checkpoint_path: ./exps_compare/epoch_3.pth
+26-03-11 20:05:33.425 - INFO: config_path: ./open_clip/model_configs/ViT-L-14-336.json
+26-03-11 20:05:33.425 - INFO: dataset: eyecandies
+26-03-11 20:05:33.425 - INFO: model: ViT-L-14-336
+26-03-11 20:05:33.425 - INFO: pretrained: openai
+26-03-11 20:05:33.425 - INFO: features_list: [6, 12, 18, 24]
+26-03-11 20:05:33.425 - INFO: image_size: 224
+26-03-11 20:05:33.425 - INFO: use_vision_prompt: True
+26-03-11 20:05:33.425 - INFO: use_text_prompt: True
+26-03-11 20:05:33.425 - INFO: n_ctx_general: 16
+26-03-11 20:05:33.425 - INFO: n_ctx_special: 8
+26-03-11 20:05:33.425 - INFO: n_KLVP: 1
+26-03-11 20:05:33.425 - INFO: views: 9
+26-03-11 20:05:33.425 - INFO: viprompt: {'nums': 24, 'tokens': 1, 'list': [6, 12, 18, 24]}
+26-03-11 20:09:06.210 - INFO: 
+| objects          |   auroc_px |   f1_px |   ap_px |   aupro |   auroc_sp |   f1_sp |   ap_sp |
+|:-----------------|-----------:|--------:|--------:|--------:|-----------:|--------:|--------:|
+| CandyCane        |        8.6 |     2   |     0.1 |     1.2 |       45   |    67.6 |    50   |
+| ChocolateCookie  |       41.3 |    21   |    11.5 |    16.3 |       64.6 |    73.3 |    63   |
+| ChocolatePraline |       59.2 |    46.7 |    34.4 |    36.5 |       47   |    69.6 |    47.4 |
+| Confetto         |       62   |    49.9 |    36.9 |    37.4 |       37   |    66.7 |    46.8 |
+| GummyBear        |       45   |    16.3 |     7.3 |    41.3 |       59.1 |    65.6 |    57.8 |
+| HazelnutTruffle  |       32   |    13.8 |     6.3 |     6.7 |       35.7 |    66.7 |    42.1 |
+| LicoriceSandwich |       55.2 |    38.9 |    28.4 |    29.4 |       54.6 |    66.7 |    63   |
+| Lollipop         |       24.8 |    20.3 |     9.5 |     9.4 |       43   |    50   |    29.8 |
+| Marshmallow      |       51.3 |    30.4 |    18.4 |    16.7 |       57   |    69.4 |    58   |
+| PeppermintCandy  |       47.5 |    41.4 |    26.3 |    39.8 |       37.8 |    66.7 |    47.5 |
+| mean             |       42.7 |    28.1 |    17.9 |    23.5 |       48.1 |    66.2 |    50.5 |
